@@ -1,0 +1,41 @@
+﻿@using System.Linq
+@model List<event_page_web.Models.Event>
+
+
+    <h2>Etkinlikler</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Başlık</th>
+                <th>Açıklama</th>
+                <th>Tarih</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+            @if (Model != null && Model.Any())
+{
+            @foreach (var evt in Model)
+            {
+                <tr>
+                    <td>@evt.Title</td>
+                    <td>@evt.Description</td>
+                    <td>@evt.Date.ToString("dd.MM.yyyy")</td>
+                </tr>
+            }
+        }
+        else
+        {
+            {
+                <tr>
+					<td colspan="3" class="text-center">Henüz etkinlik bulunmamaktadır.</td>    
+                </tr>
+            }
+        }
+        </tbody>
+    </table>
+
+    @if (User.Identity.IsAuthenticated)
+{
+    <a href="@Url.Action("Create","Event")" class=" btn btn-success"> Etkinlik Ekle</a>
+}

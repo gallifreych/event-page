@@ -11,23 +11,50 @@
     <Compile Remove="Models\Controllers\**" />
     <Compile Remove="Views\NewFolder1\**" />
     <Compile Remove="Views\NewFolder2\**" />
+    <Compile Remove="Views\NewFolder3\**" />
+    <Compile Remove="Views\NewFolder4\**" />
+    <Compile Remove="Views\NewFolder5\**" />
+    <Compile Remove="Views\NewFolder6\**" />
     <Compile Remove="Views\NewFolder\**" />
     <Content Remove="Models\Controllers\**" />
     <Content Remove="Views\NewFolder1\**" />
     <Content Remove="Views\NewFolder2\**" />
+    <Content Remove="Views\NewFolder3\**" />
+    <Content Remove="Views\NewFolder4\**" />
+    <Content Remove="Views\NewFolder5\**" />
+    <Content Remove="Views\NewFolder6\**" />
     <Content Remove="Views\NewFolder\**" />
     <EmbeddedResource Remove="Models\Controllers\**" />
     <EmbeddedResource Remove="Views\NewFolder1\**" />
     <EmbeddedResource Remove="Views\NewFolder2\**" />
+    <EmbeddedResource Remove="Views\NewFolder3\**" />
+    <EmbeddedResource Remove="Views\NewFolder4\**" />
+    <EmbeddedResource Remove="Views\NewFolder5\**" />
+    <EmbeddedResource Remove="Views\NewFolder6\**" />
     <EmbeddedResource Remove="Views\NewFolder\**" />
     <None Remove="Models\Controllers\**" />
     <None Remove="Views\NewFolder1\**" />
     <None Remove="Views\NewFolder2\**" />
+    <None Remove="Views\NewFolder3\**" />
+    <None Remove="Views\NewFolder4\**" />
+    <None Remove="Views\NewFolder5\**" />
+    <None Remove="Views\NewFolder6\**" />
     <None Remove="Views\NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="conn.php" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="MySql.Data" Version="9.3.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Home\" />
   </ItemGroup>
 
 </Project>

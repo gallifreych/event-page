@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("event-page-web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95b92e1547245cc61f8c5028c7f2ceb00118d5bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6395edd98f8ebdf3b050a3182a841fb85f6197ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("event-page-web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("event-page-web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
