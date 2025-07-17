@@ -1,0 +1,84 @@
+﻿@using System.Linq
+@model List<event_page_web.Models.Event>
+
+
+    <h2>Etkinlikler</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Başlık</th>
+                <th>Açıklama</th>
+                <th>Tarih</th>
+                <th>Yer</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+            @if (Model != null && Model.Any())
+{
+            @foreach (var evt in Model.OrderBy(e => e.Date))
+            {
+                <tr>
+                    <td> 
+                        @if (!string.IsNullOrEmpty(evt.CoverImagePath))
+                        {
+                            <img src="@evt.CoverImagePath" width="100"/>
+                        }
+                        else
+                        {
+                            <span>Kapak Fotoğrafı Eklenmedi.</span>
+                        }
+
+                    </td>
+                    <td>@evt.Title</td>
+                    <td>@evt.Description</td>
+                    <td>@evt.Date.ToString("dd.MM.yyyy")</td>
+                    <td>@evt.Place</td>
+                    <td>
+                        @using (Html.BeginForm("Delete", "Event", FormMethod.Post))
+                        {
+                            @Html.Hidden("Id", evt.Id)
+                            <button type="submit" class="btn btn-danger btn-sm delete-button" style="display:none;"
+                            onclick="return confirm('Bu etkinliği silmek istediğinize emin misiniz?');">
+                                Sil
+                            </button>
+                        }
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Event", new { id = evt.Id })" class="btn btn-warning btn-sm">Güncelle</a>
+                    </td>
+                </tr>
+              
+            }
+        }
+        else
+        {
+                <tr>
+					<td colspan="3" class="text-center">Henüz etkinlik bulunmamaktadır.</td>    
+                </tr>
+            
+        }
+        </tbody>
+    </table>
+
+    @if (User.Identity.IsAuthenticated)
+{
+    <a href="@Url.Action("Create","Event")" class=" btn btn-success"> Etkinlik Ekle</a>
+    <button id="deleteShow" class="btn btn-secondary">Kaldır</button>
+}
+
+@section Scripts {
+    <script>
+        document.getElementById("deleteShow").addEventListener("click", function () {
+            var buttons = document.querySelectorAll(".delete-button");
+            buttons.forEach(function (btn) {
+                if (btn.style.display === "none") {
+                    btn.style.display = "inline-block";
+                } else {
+                    btn.style.display = "none";
+                }
+            });
+        });
+    </script>
+}

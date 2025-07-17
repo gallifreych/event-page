@@ -4,7 +4,7 @@
 
 <h2>Yeni Etkinlik Ekle</h2>
 
-@using (Html.BeginForm("Create", "Event", FormMethod.Post))
+@using (Html.BeginForm("Create", "Event", FormMethod.Post, new{enctype = "multipart/form-data"}))
 {
     <div class="form-group">
         @Html.LabelFor(m => m.Title)
@@ -19,6 +19,16 @@
     <div class="form-group mt-2">
         @Html.LabelFor(m => m.Date)
         @Html.TextBoxFor(m => m.Date, new { @class = "form-control", type = "date" })
+    </div>
+
+    <div class="form-group mt-2">
+        <label>Kapak Fotoðrafý</label>
+        <input type="file" name="cover" class="form-control" />
+    </div>
+
+    <div class="form-group mt-2">
+     @Html.LabelFor(m => m.Place)
+     @Html.TextAreaFor(m => m.Place, new {@class = "form-control"})
     </div>
 
     <button type="submit" class="btn btn-success mt-3">Etkinliði Kaydet</button>
