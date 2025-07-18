@@ -30,6 +30,12 @@
      @Html.LabelFor(m => m.Place)
      @Html.TextAreaFor(m => m.Place, new {@class = "form-control"})
     </div>
-
-    <button type="submit" class="btn btn-success mt-3">Etkinliði Kaydet</button>
+    @if(User.IsInRole("Admin"))
+    {
+        <button type="submit" class="btn btn-success mt-3">Etkinliði Kaydet</button>
+    }
+    else
+    {
+        <p class="text-danger mt-3"> Yeni Etkinlik Oluþturmanýz Ýçin Yönetici Hesabýyla Giriþ Yapmanýz Gerekmektedir.</p>
+    }
 }

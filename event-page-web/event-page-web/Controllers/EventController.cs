@@ -4,12 +4,14 @@ using event_page_web.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 namespace event_page_web.Controllers
 {
     public class EventController : Controller
     {
         private readonly MyDbContext _context;
+
 
         public EventController(MyDbContext context)
         {
@@ -41,7 +43,7 @@ namespace event_page_web.Controllers
         //}
         //return View(newEvent);
         //}
-
+        [Authorize(Roles ="admin")]
         [HttpPost]
         public async Task<IActionResult> Delete(int id)
         {
@@ -53,7 +55,7 @@ namespace event_page_web.Controllers
             }
             return RedirectToAction("Index", "Event");
         }
-
+        [Authorize(Roles ="admin")]
         [HttpPost]
         public async Task<IActionResult> Create(Event model, IFormFile? cover)
         {
@@ -83,7 +85,7 @@ namespace event_page_web.Controllers
             return RedirectToAction("Index","Home");
         }
 
-
+        [Authorize(Roles ="admin")]
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
@@ -94,6 +96,7 @@ namespace event_page_web.Controllers
             }
             return View(etkinlik);
         }
+        [Authorize(Roles ="admin" )]
         [HttpPost]
         public async Task<IActionResult> Edit(Event model, IFormFile? cover)
         {
@@ -117,6 +120,7 @@ namespace event_page_web.Controllers
             }
             return View(model);
         }
+
     }
 }
         

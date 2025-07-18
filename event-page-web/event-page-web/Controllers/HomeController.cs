@@ -1,4 +1,5 @@
 ﻿using event_page_web.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace event_page_web.Controllers
@@ -13,7 +14,17 @@ namespace event_page_web.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "admin,viewer")]
+        public IActionResult ViewEvents()
+        {
+            return View();
+        }
 
+        [Authorize(Roles = "admin")]
+        public IActionResult CreateEvent(int id)
+        {
+            return View();
+        }
         // GET: /Home/Index
         public IActionResult Index()
         {

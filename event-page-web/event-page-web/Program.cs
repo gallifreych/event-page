@@ -11,7 +11,7 @@ builder.Services.AddDbContext<MyDbContext>(options =>
         connectionString,
         new MySqlServerVersion(new Version(10, 4, 32))
     ));
-
+builder.Services.AddAuthorization();
 builder.Services.AddControllersWithViews();
 
 
@@ -40,6 +40,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Account}/{action=Login}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
