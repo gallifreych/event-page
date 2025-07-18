@@ -12,7 +12,11 @@ namespace event_page_web.Controllers
     {
         private readonly MyDbContext _context;
 
-
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
         public EventController(MyDbContext context)
         {
             _context = context;

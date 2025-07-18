@@ -1,4 +1,5 @@
 ﻿using event_page_web.Data;
+using event_page_web.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
@@ -19,6 +20,39 @@ public class AccountController : Controller
         _context = context;
     }
     [HttpGet]
+    public IActionResult Register()
+    {
+        var model = new User();
+        return View(model);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Register(User model)
+    {
+        var yeniKullanici = new User
+        {
+            Kullanici_Adi = model.Kullanici_Adi,
+            Sifre = model.Sifre,
+            Yetki = "Guest"
+        };
+
+        _context.kullanıcılar.Add(yeniKullanici);
+        await _context.SaveChangesAsync();
+
+        var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.Name, model.Kullanici_Adi),
+        new Claim(ClaimTypes.Role, "Guest")
+    };
+
+        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+        var principal = new ClaimsPrincipal(identity);
+
+        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+        return RedirectToAction("Index", "Home");
+    }
+
+    [HttpGet]
     public IActionResult Login()
     {
         return View();
@@ -29,7 +63,7 @@ public class AccountController : Controller
         await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
         return RedirectToAction("Index", "Home");
     }
-    //veritabanından çek cookieye al 
+   
     [HttpPost]
     public async Task<IActionResult> Login(string username, string password)
     {
@@ -55,6 +89,3 @@ public class AccountController : Controller
         return View();
     }
 }
-
-
-        
