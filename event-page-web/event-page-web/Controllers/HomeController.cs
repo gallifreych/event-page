@@ -14,13 +14,13 @@ namespace event_page_web.Controllers
             _context = context;
         }
 
-        [Authorize(Roles = "admin,guest")]
+        [Authorize(Roles = "Admin,guest")]
         public IActionResult ViewEvents()
         {
             return View();
         }
 
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public IActionResult CreateEvent(int id)
         {
             return View();

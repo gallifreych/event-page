@@ -47,7 +47,7 @@ namespace event_page_web.Controllers
         //}
         //return View(newEvent);
         //}
-        [Authorize(Roles ="admin")]
+        [Authorize(Roles ="Admin")]
         [HttpPost]
         public async Task<IActionResult> Delete(int id)
         {
@@ -57,9 +57,9 @@ namespace event_page_web.Controllers
                 _context.Etkinlikler.Remove(etkinlik);
                 await _context.SaveChangesAsync();
             }
-            return RedirectToAction("Index", "Event");
+            return RedirectToAction("Index", "Home");
         }
-        [Authorize(Roles ="admin")]
+        [Authorize(Roles ="Admin")]
         [HttpPost]
         public async Task<IActionResult> Create(Event model, IFormFile? cover)
         {
@@ -89,7 +89,7 @@ namespace event_page_web.Controllers
             return RedirectToAction("Index","Home");
         }
 
-        [Authorize(Roles ="admin")]
+        [Authorize(Roles ="Admin")]
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
@@ -100,7 +100,7 @@ namespace event_page_web.Controllers
             }
             return View(etkinlik);
         }
-        [Authorize(Roles ="admin" )]
+        [Authorize(Roles ="Admin" )]
         [HttpPost]
         public async Task<IActionResult> Edit(Event model, IFormFile? cover)
         {

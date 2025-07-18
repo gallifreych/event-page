@@ -1,4 +1,5 @@
 ﻿@using System.Linq
+@using System.Security.Claims
 @model List<event_page_web.Models.Event>
 
 
@@ -60,7 +61,7 @@
                         }
                     </td>
                     <td>
-                        @if (User.IsInRole("admin"))
+                        @if (User.IsInRole("Admin"))
                         {
                             <a href="@Url.Action("Edit", "Event", new { id = evt.Id })" class="btn btn-warning btn-sm">Güncelle</a>
                         }
@@ -79,7 +80,7 @@
         </tbody>
     </table>
 
-    @if (User.IsInRole("admin"))
+    @if (User.IsInRole("Admin"))
 {
     <a href="@Url.Action("Create","Event")" class=" btn btn-success"> Etkinlik Ekle</a>
     <button id="deleteShow" class="btn btn-secondary">Kaldır</button>

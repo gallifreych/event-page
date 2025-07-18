@@ -64,4 +64,5 @@ wwwroot\uploads\46ab6aee-0aa8-4011-a5bc-d28d4aaf64c0.png
 wwwroot\uploads\47885507-2eab-4eda-ba10-c2eab7ca264e.png
 wwwroot\uploads\578295e3-7f30-48af-8bf6-86ce4b1fe4f8.png
 wwwroot\uploads\9f9abfa1-0b90-49a4-821c-a85d35620958.png
+wwwroot\uploads\ade818f3-0d36-4c3c-8caa-1bd64e7d31a8.png
 wwwroot\uploads\ee0f4957-0306-4db1-86be-12817b6aa346.png

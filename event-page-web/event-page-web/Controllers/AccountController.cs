@@ -73,10 +73,10 @@ public class AccountController : Controller
         if (user != null)
         {
             var claims = new List<Claim>
-        {
+             {
             new Claim(ClaimTypes.Name, user.Kullanici_Adi),
             new Claim(ClaimTypes.Role, user.Yetki)
-        };
+             };
 
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);
