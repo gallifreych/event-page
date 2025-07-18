@@ -14,7 +14,7 @@ namespace event_page_web.Controllers
             _context = context;
         }
 
-        [Authorize(Roles = "admin,viewer")]
+        [Authorize(Roles = "admin,guest")]
         public IActionResult ViewEvents()
         {
             return View();

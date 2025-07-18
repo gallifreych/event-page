@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,28 +31,20 @@
       "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|c:\\users\\tubaekmen11\\onedrive\\belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DCABC49-8BC7-4224-A5C1-E668DCB47911}|event-page-web\\event-page-web.csproj|solutionrelative:event-page-web\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,63 +54,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "event-page-web\\Data\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "event-page-web\\Data\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:55:08.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Program.cs",
               "RelativeDocumentMoniker": "event-page-web\\Program.cs",
               "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Program.cs",
               "RelativeToolTip": "event-page-web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T08:00:30.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Models\\User.cs",
               "RelativeDocumentMoniker": "event-page-web\\Models\\User.cs",
               "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Models\\User.cs",
               "RelativeToolTip": "event-page-web\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T09:37:50.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "event-page-web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "event-page-web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T09:04:37.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "event-page-web\\Views\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "event-page-web\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-18T08:02:50.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Views\\Event\\Edit.cshtml",
               "RelativeDocumentMoniker": "event-page-web\\Views\\Event\\Edit.cshtml",
@@ -123,12 +123,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "event-page-web\\Controllers\\EventController.cs",
-              "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Controllers\\EventController.cs*",
-              "RelativeToolTip": "event-page-web\\Controllers\\EventController.cs*",
+              "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Controllers\\EventController.cs",
+              "RelativeToolTip": "event-page-web\\Controllers\\EventController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T08:49:57.497Z",
@@ -136,59 +136,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Models\\Event.cs",
               "RelativeDocumentMoniker": "event-page-web\\Models\\Event.cs",
               "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Models\\Event.cs",
               "RelativeToolTip": "event-page-web\\Models\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T06:07:50.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "event-page-web\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Controllers\\HomeController.cs",
               "RelativeToolTip": "event-page-web\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-14T09:40:35.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "event-page-web\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "event-page-web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-16T06:18:40.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "event-page-web\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "event-page-web\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "event-page-web\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAnwCsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T08:21:10.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\TubaEkmen11\\OneDrive\\Belgeler\\projeler\\etkinlik\\event-page\\event-page-web\\event-page-web\\Views\\Event\\Create.cshtml",
               "RelativeDocumentMoniker": "event-page-web\\Views\\Event\\Create.cshtml",

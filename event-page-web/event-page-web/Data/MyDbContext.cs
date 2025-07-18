@@ -10,5 +10,7 @@ namespace event_page_web.Data
             : base(options) { }
 
         public DbSet<Event> Etkinlikler { get; set; }
+
+        public DbSet<User> kullanıcılar { get; set; }
     }
 }
